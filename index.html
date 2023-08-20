@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Meu portfólio</title>
+      <link rel="stylesheet" href="./style.css"/>
+      <!-- chamando o ícone na aba do navegador -->
+      <link rel="shortcut icon" href="./minha foto.jpeg"
+      <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+      <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+   </head>
+   <body>
+      <!-- cabeçalho da nossa página, visível ao usuário -->
+      <header class="header-menu">
+         <nav>
+            <ul class="lista-menu">
+               <li><a href="#formacao">Formação</a> </li>
+               <li><a href="#portifolio">Portfólio</a></li>
+               <li><a href="#contato">Contatos</a></li>
+            </ul>
+         </nav>
+      </header>
+      <!-- corpo da nossa página, visível ao usuário -->
+      <main>
+         <section class="principal">
+            <article class="subcontainer-principal container">
+               <div>
+                  <img class="foto-perfil" src="./minha foto.jpeg">
+               </div>
+               <div>
+                  <h1 class="nome-completo">Manoela Santos</h1>
+                  <h2 class="profissao">Estudante</h2>
+               </div>
+               <div class="sobre mim">
+                  <p>
+                     Prazer, esse perfil pertence a Ana Rabelo e Manoela Santos. Manoela é técnica em eletrotécnica pelo IFBA, atualmente é estudante de comunicação pela UFBA e entusiasta da área da tecnologia. Ana Rabelo tem ensino médio completo, curso técnico em manutenção em micro e redes pelo SENAI.
+
+                  </p>
+               </div>
+            </article>
+         </section>
+         <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+         <section id="formacao">
+            <article class="container article-lista">
+               <div>
+                  <h3 class="topico-principal">Formação</h3>
+               </div>
+               <div class="lista-item">
+                  <ul>
+                     <li>
+                        <p class="lista-titulo">Ciclo formativo</p>
+                        <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
+                        <p class="lista-descricao">
+                           Introdução a lógica de programação, HTML e CSS. Curso "O Poder do Futuro", oferecido pelo projeto Pretalab da Olabi.
+                        </p>
+                     </li>
+                     <li>
+                        <p class="lista-titulo">Portfólio</p>
+                        <a href=https://github.com/asilvaolabi/projetofinal_logica_ssa/blob/manoelasantos/media.js target="_blank" class="lista-local">calculadora de média</a>
+                        <p class="lista-descricao">
+                           Projeto final do módulo de JavaScript do curso introdutório Pretalab.
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+            </article>
+         </section>
+         <section>
+         
+         </section>
+      </main>
+      <!-- rodapé da nossa página, visível ao usuário -->
+      <footer class="rodape">
+         <div class="container">
+            <ul id="contato" class="lista-rodape">
+               <li><i class="fas fa-envelope-square estilo-icone"></i>soumanoela16@gmail.com</li>
+               <li href=""><i class="fab fa-instagram estilo-icone"></i>mano_ela_amria</li>
+               <li href=""><i class="fab fa-github-square estilo-icone"></i>manoelas</li>
+               <li><i class="fas fa-envelope-square estilo-icone"></i>ana.carla.rabelo32@gmail.com</li>
+               <li href=""><i class= "fab fa-instagram estilo-icone"></i>ana_rabelando</li>
+               <li href=""><i class="fab fa-github-square estilo-icone"></i>anarabe</li>
+            </ul>
+         </div>
+      </footer>
+   </body>
+</html>
